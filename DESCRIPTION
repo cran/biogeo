@@ -1,0 +1,18 @@
+Package: biogeo
+Type: Package
+Title: Point Data Quality Assessment and Coordinate Conversion
+Version: 1.0
+Date: 2016-03-10
+Author: Mark Robertson
+Maintainer: Mark P. Robertson <markrobertsonsa@gmail.com>
+Description: Functions for error detection and correction in point data quality datasets that are used in species distribution modelling. Includes functions for parsing and converting coordinates into decimal degrees from various formats.
+LazyData: TRUE
+License: GPL (>= 3)
+URL: http://onlinelibrary.wiley.com/doi/10.1111/ecog.02118/abstract
+Depends: R (>= 3.1.0)
+Imports: raster, stringr, maptools, vegan, sp
+Suggests: dismo (>= 0.9-3)
+Packaged: 2016-04-07 17:57:01 UTC; User
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2016-04-08 10:43:59

@@ -1,0 +1,16 @@
+exportPattern("^[^\\.]")
+importFrom("grDevices","boxplot.stats","dev.list","dev.new","dev.off",
+"dev.set","dev.size","graphics.off","is.raster")
+importFrom("graphics","arrows","box","identify","legend","mtext",
+"par","points","segments","text","plot")
+importFrom("stringr","str_trim","str_replace_all","str_locate","str_replace","str_detect","str_locate_all","str_c")
+importFrom("sp","SpatialPoints","SpatialPointsDataFrame","bbox","CRS","over","SpatialPolygonsDataFrame")
+importFrom("stats","median","na.omit","aggregate")
+importFrom("vegan","rda","scores")
+importFrom("maptools","writePointsShape")
+importFrom("raster","extract","raster","ncell","cellFromXY","xyFromCell","colFromX","rowFromY",
+"xFromCol","yFromRow","crop","pointDistance","NAvalue","xmin","ymin","xmax","ymax",
+"adjacent","setValues","values","stack","res","extent")
+
+
+
